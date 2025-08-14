@@ -1,8 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AutoKessan
+
+> Automated accounting and expense management system for small businesses and freelancers.
+
+## Features
+
+- Upload receipts and invoices for automatic data extraction
+- Categorize expenses and income
+- Generate financial reports and summaries
+- Export data to CSV/Excel
+- Multi-user support
+- Secure authentication
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js (v18 or later recommended)
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/luqmanhardy/AutoKessan.git
+cd AutoKessan
+
+# Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+### Running the Development Server
 
 ```bash
 npm run dev
@@ -14,23 +46,36 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Log in or register a new account
+- Upload receipts/invoices via the dashboard
+- Review and categorize extracted data
+- View and export reports from the Reports section
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js
+- React
+- Tailwind CSS
+- Node.js
+- (Optional) Firebase, MongoDB, or PostgreSQL for backend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can deploy AutoKessan easily on [Vercel](https://vercel.com/) or other cloud platforms.
 
-## Deploy on Vercel
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Configure environment variables as needed
+4. Deploy and share your app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
+
+## License
+
+MIT License
